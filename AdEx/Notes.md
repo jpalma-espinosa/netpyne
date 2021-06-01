@@ -9,4 +9,4 @@
 
 
 ## 2. What I am going to do?
-Apparently, there is no current AdEx.mod implemented in NEURON (at least, forum does not show this). I will first replicate the AdEx.mod file/model
+Apparently, there is no current [AdEx.mod implemented in NEURON](https://senselab.med.yale.edu/modeldb/ShowModel?model=147141). I will first replicate the AdEx.mod file/model based on what Kerr Lab did previously
