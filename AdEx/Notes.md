@@ -9,4 +9,18 @@
 
 
 ## 2. What I am going to do?
-Apparently, there is no current [AdEx.mod implemented in NEURON](https://senselab.med.yale.edu/modeldb/ShowModel?model=147141). I will first replicate the AdEx.mod file/model based on what Kerr Lab did previously
+ Apparently, there is no current [AdEx.mod implemented in NEURON](https://senselab.med.yale.edu/modeldb/ShowModel?model=147141). I will first replicate the AdEx.mod file/model based on what Kerr Lab did previously.
+To achieve this goal, the tasks will be:
+- [ ] Implement and analyze AdEx model implemented in neuron (.mod) (Sprint 1)
+- [ ] Replicate the Izhikevic tutorial, but now incorporating the AdEx model (Sprint 2).
+- [ ] Replicate figures from [Naud et al. ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2798047/) (Sprint 3)
+- [ ] Write AdEx tutorial and test it for publication on the website (Sprint 4)
+
+**KPI: AdEx working on Netpyne**
+
+## Update Jun 7th, 2021
+ I was able to run the [izhikevic tutorial](http://www.netpyne.org/tutorial.html#tutorial-4-using-a-simplified-cell-model-izhikevich).  Also, I wrote the Adex.mod file, by replicating what was done with [izhi2007b.mod](http://www.netpyne.org/_downloads/803a7312bae028b7a24ba7f3e28de705/izhi2007b.mod).  However, I am still not able to produce a spike in the Adex model.  The izhikevic one has some strange way of calculating the derivative states.  What is the difference between those two forms of calculation?  Also, how can I incorporate the synapses in the Adex neuron?
+   
+The izhikevic (and adex) is implemented as a POINT PROCESS (see also [NEURON documentation](https://www.neuron.yale.edu/neuron/static/py_doc/modelspec/programmatic/mechanisms/nmodl.html)), contrary to the HH model.
+
+

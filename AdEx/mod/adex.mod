@@ -97,7 +97,7 @@ BREAKPOINT {
 
 :solve the system
 DERIVATIVE states { 
-    vv'=(1/C)*(-gl*(vv-E_l)+gl*deltaT*exp((vv-V_thre)/deltaT)+I_ext - ww)
+    vv'=(1/C)*(-gl*(vv-E_l)+gl*deltaT*exp((vv-V_thre)/deltaT)-I_ext - ww)
     ww' = (1/tau_w)*(a*(vv-E_l)-ww)
     :i = vv'
 
