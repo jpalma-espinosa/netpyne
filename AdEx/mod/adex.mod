@@ -36,11 +36,10 @@ ENDCOMMENT
 
 : Declare name of object and variables
 NEURON {
-    POINT_PROCESS AdEx
-	RANGE num
-    RANGE gl, deltaT, tau_w, a, b, E_l, I_ext, C, V_reset, V_thre
-    RANGE celltype, alive, cellid
-    NONSPECIFIC_CURRENT i
+    ARTIFICIAL_CELL AdEx
+    GLOBAL gl, deltaT, tau_w, a, b, E_l, I_ext, C, V_reset, V_thre
+    GLOBAL celltype
+    ELECTRODE_CURRENT i
 }
 
 UNITS {
@@ -65,18 +64,11 @@ PARAMETER {
 	gl  = 10		(nS)	    :leak conductance
 	deltaT = 2		(mV)	    :speed of exp
     C = 200         (pF)        :cell Capacitance
-    I_ext = 0       (pA)        :external current
     label=0                     : assign an arbitrary label to the cell
     celltype = 1                : A flag for indicating what kind of cell it is.
-    alive = 1 : A flag for deciding whether or not the cell is alive -- if it's dead, acts normally except it doesn't fire spikes
     
 }
 
-
-: Variables used for internal calculations
-ASSIGNED {
-  i (nA)
-}
 
 : state variables. vv is the voltage and ww is the adaptation variable
 STATE {
@@ -88,28 +80,23 @@ STATE {
 INITIAL { 
     ww=0            (pA)
     vv=-60          (mV)
-    net_send(0,1) : Required for the WATCH statement to be active
 }
 
-BREAKPOINT {
-  SOLVE states METHOD derivimplicit
-}
 
 :solve the system
 DERIVATIVE states { 
-    vv'=(1/C)*(-gl*(vv-E_l)+gl*deltaT*exp((vv-V_thre)/deltaT)-I_ext - ww)
+    vv'=(1/C)*(-gl*(vv-E_l)+gl*deltaT*exp((vv-V_thre)/deltaT)-i - ww)
     ww' = (1/tau_w)*(a*(vv-E_l)-ww)
     :i = vv'
-
 }
 : Input received
-NET_RECEIVE (w) {
-    : Check if spike occurred
-    if (flag == 1) { :wait for membrane potential to reach threshold
-        WATCH (vv > V_spike) 2
-    } else if (flag == 2) {:threshold reached, fire and reset the model
-        net_event(t)
-        vv = V_reset
-        ww = ww+b
-    }
-}
+:    NET_RECEIVE (w) {
+:        : Check if spike occurred
+:        if (flag == 1) { :wait for membrane potential to reach threshold
+:            WATCH (vv > V_spike) 2
+:        } else if (flag == 2) {:threshold reached, fire and reset the model
+:            net_event(t)
+:            vv = V_reset
+:            ww = ww+b
+:        }
+:    }

@@ -14,7 +14,7 @@ class BallAndStick:
             sec.Ra = 100    # Axial resistance in Ohm * cm
             sec.cm = 1      # Membrane capacitance in micro Farads / cm^2
         if(kind=='adex'):
-            self.soma.insert(h.AdEx)
+            self.soma.insert("AdEx")
         if(kind=='hh'):
             self.soma.insert('hh')                                          
             for seg in self.soma:
