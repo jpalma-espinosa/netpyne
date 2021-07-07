@@ -12,8 +12,8 @@
  Apparently, there is no current [AdEx.mod implemented in NEURON](https://senselab.med.yale.edu/modeldb/ShowModel?model=147141). I will first replicate the AdEx.mod file/model based on what Kerr Lab did previously.
 To achieve this goal, the tasks will be:
 - ~~[ ] Implement and analyze AdEx model implemented in neuron (.mod) (Sprint 1)~~
-- Analyze AdEx model implemented in neuron (.mod) (Sprint 1)
-- Re-Implement AdEx model in NEURON (Adex.mod) (Sprint 2)
+- [ ] Analyze AdEx model implemented in neuron (.mod) (Sprint 1)
+- [ ] Re-Implement AdEx model in NEURON (Adex.mod) (Sprint 2)
 - [ ] Replicate the Izhikevic tutorial, but now incorporating the AdEx model ~~(Sprint 2)~~(Sprint 3).
 - [ ] Replicate figures from [Naud et al. ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2798047/) ~~(Sprint 3)~~(Sprint 4).
 - [ ] Write AdEx tutorial and test it for publication on the website ~~(Sprint 4)~~(Sprint 5).
