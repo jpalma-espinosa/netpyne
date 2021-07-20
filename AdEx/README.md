@@ -35,3 +35,40 @@ This code block is better defined in the Neuron Book (Ch. 10)
 
 ## Update Jul 6th, 2021  
 I only read a couple of documents from [Neuron tutorial](https://www.neuron.yale.edu/neuron/static/new_doc/modelspec/programmatic/mechanisms/nmodl2.html) and from a [MIT tutorial on Neuron](http://web.mit.edu/neuron_v7.4/nrntuthtml/tutorial/tutD.html). The important part here was to examinate how to properly define the puntual neuron AdEx.  It seems that my model needs to considerate an external current _FROM_ an external point mechanism.  For this, I will need to re-study the [integrate and fire model](https://github.com/neuronsimulator/nrn/blob/master/src/nrnoc/intfire2.mod) that is proposed in the [Neuron Github page](https://github.com/neuronsimulator)
+
+## Update Jul 19th, 2021 
+After the meeting with Salvador, on Jul 6th, and by following his advices, I replicated what was developed in the izhikevich model. In particular the b part.
+Briefly, the models could be sumarized as:
+
+|Characteristic          |Izhi2003a | Izhi2003b | Izhi2007a | Izhi2007b|
+|---------------|-----------|-----------|----------|--------- | 
+|Kind           | P.Proc. |P.Proc. |P.Proc. |P.Proc. |
+|Section | Dummy | Regular | Dummy | Regular |
+|Synaptic input|yes | no | yes | yes|
+|Synaptic method | $g_{syn}' = -g_{syn}/\tau_g$|---|AMPA/NMDA/GABA dynamics|cell dependent
+|Implemented in Netpyne | no | no | yes | no
+
+
+I focused on replicating the Izhi2007b.
+
+**Results:**     
+1. I was able to build and compile Adex2021b (I am keeping the name scheme).
+2. I was able to replicate the Izhikevic tutorial, but now using Adex (adex.ipynb).
+
+**Drawbacks:**   
+1.  my neuron does not fire, even further, I get an error
+```C   
+See http://neuron.yale.edu/neuron/credits
+
+loading membrane mechanisms from /home/javier/Neuroscience/netpyne/AdEx/x86_64/.libs/libnrnmech.so
+Additional mechanisms from files
+ "./mod/adex.mod" "./mod/izhi2007b.mod"
+nrniv: unable to open font "*helvetica-medium-r-normal*--14*", using "fixed"
+oc>     -65 
+Segmentation violation
+Backtrace:
+terminate called after throwing an instance of 'std::regex_error'
+  what():  regex_error
+Aborted (core dumped)
+```
+I need to debug the .mod file, but I don't know how
