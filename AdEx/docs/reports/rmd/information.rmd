@@ -20,8 +20,7 @@ To solve those questions, I propose to implement the AdEx model in NEURON and th
 
 
 ## Publications
-
-1. [Dura-Bernal, S., Suter, B. A., Gleeson, P., Cantarelli, M., Quintana, A., Rodriguez, F., ... & Lytton, W. W. (2019). NetPyNE, a tool for data-driven multiscale modeling of brain circuits. Elife, 8, e44494.](https://elifesciences.org/articles/44494)
+1. [-@dura2019netpyne](https://elifesciences.org/articles/44494)
 
 ## Digital verification
 
@@ -30,7 +29,7 @@ not yet
 ## Links
 * The NetPyNe project is available at <http://www.netpyne.org/>
 * Dura-Bernal Laboratory could be reached at <http://dura-bernal.org/> 
-The whole project is archived in github as digital repository. It may be found in the following link: <https://github.com/jpalma-espinosa/netpyne>
+* The whole project is archived in github as digital repository. It may be found in the following link: <https://github.com/jpalma-espinosa/netpyne>
 
 ## Additional Credits
 * This document was done with the [Eisvogel Template, by Pascal Wagler](https://github.com/Wandmalfarbe/pandoc-latex-template)
