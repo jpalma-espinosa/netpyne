@@ -60,7 +60,7 @@ INITIAL {
 PARAMETER {
 	cellid = -1  				:Cell ID
 	V_reset = -58	(mV)		:reset potential after spike
-	V_thre = -50	(mV)		:threshold for spike detection
+	V_thre = -10	(mV)		:threshold for spike detection
 	V_spike = 0  	(mV)	    :value of spike
 	a = 2			(nS)		:coupling with adaptive variable
 	b = 0   		(pA)		:adaptive increment

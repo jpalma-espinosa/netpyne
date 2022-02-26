@@ -1,0 +1,12 @@
+# Changelog
+
+```{r changelog,include=TRUE, echo=FALSE}
+library(formattable)
+source_python('/home/javier/Neuroscience/netpyne/AdEx/src/changelog.py')
+df <- get_changelog()
+hashd <- df$Commit
+df$Commit <- paste0("[",hashd, "](https://github.com/jpalma-espinosa/netpyne/commit/",hashd,")")
+knitr::kable(df,align = "ccc")
+```
+
+

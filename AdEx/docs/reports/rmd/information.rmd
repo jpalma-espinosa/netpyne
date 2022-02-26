@@ -1,0 +1,36 @@
+# Information
+
+## Project name
+
+Adaptative Exponential Integrate and Fire (AdEx) implementation in Netpyne
+
+## Project date
+
+This project started in June 2021
+
+## Motivation
+
+[The Kerr Lab](https://github.com/thekerrlab/netpyne/blob/add-adexp-example/doc/source/code/adExp.py) implemented a previous version of the AdEx model.  The basic idea here was to implement an AdEx Class.
+
+   __Should netpyne provide a basic NEURON models, such as AdEx, izhikevic, integrate and fire?__
+
+   __Do NEURON provide those models?__
+
+To solve those questions, I propose to implement the AdEx model in NEURON and then, plug it into NetPyNe, as a new functionality.
+
+
+## Publications
+
+1. [Dura-Bernal, S., Suter, B. A., Gleeson, P., Cantarelli, M., Quintana, A., Rodriguez, F., ... & Lytton, W. W. (2019). NetPyNE, a tool for data-driven multiscale modeling of brain circuits. Elife, 8, e44494.](https://elifesciences.org/articles/44494)
+
+## Digital verification
+
+not yet
+
+## Links
+* The NetPyNe project is available at <http://www.netpyne.org/>
+* Dura-Bernal Laboratory could be reached at <http://dura-bernal.org/> 
+The whole project is archived in github as digital repository. It may be found in the following link: <https://github.com/jpalma-espinosa/netpyne>
+
+## Additional Credits
+* This document was done with the [Eisvogel Template, by Pascal Wagler](https://github.com/Wandmalfarbe/pandoc-latex-template)

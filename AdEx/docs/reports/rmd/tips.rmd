@@ -1,0 +1,33 @@
+# Computing tools, code snippets, and tips. 
+
+## CODE: Fast prototipying in code (2021-12-27)
+One of my biggest mistakes is to try to build, at first, a very complicated piece of software, which is amendable
+for programmer, but also efficient as hell. **I must focus on building a working piece of software and then improve
+it!**
+
+## CODE: git store credential
+
+general formula:
+
+```bash
+// local
+git config credential.helper store
+// global
+git config --global credential.helper store
+```
+
+```bash
+$ git config credential.helper store
+$ git push http://example.com/repo.git
+Username: <type your username>
+Password: <type your password>
+```
+
+Notice that **Password** is the code obtained from the [github access token](https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+​
+_several days later_
+
+```bash
+$ git push http://example.com/repo.git
+[your credentials are used automatically]
+```
