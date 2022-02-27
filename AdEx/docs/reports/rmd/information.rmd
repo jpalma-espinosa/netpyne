@@ -14,13 +14,13 @@ This project started in June 2021
 
    __Should netpyne provide a basic NEURON models, such as AdEx, izhikevic, integrate and fire?__
 
-   __Do NEURON provide those models?__
+   __Does NEURON provide those models?__
 
 To solve those questions, I propose to implement the AdEx model in NEURON and then, plug it into NetPyNe, as a new functionality.
 
 
 ## Publications
-1. [-@dura2019netpyne](https://elifesciences.org/articles/44494)
+1. [NetPyNe Paper](https://elifesciences.org/articles/44494) [@dura2019netpyne]
 
 ## Digital verification
 

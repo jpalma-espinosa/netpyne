@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.11.25)  26 FEB 2022 17:36
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.11.25)  26 FEB 2022 23:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -591,29 +591,40 @@ Package graphics Info: Driver file: xetex.def on input line 105.
 )
 \Gin@req@height=\dimen194
 \Gin@req@width=\dimen195
+) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box64
+\UL@hyphenbox=\box65
+\UL@skip=\skip79
+\UL@hook=\toks26
+\UL@height=\dimen196
+\UL@pe=\count325
+\UL@pixel=\dimen197
+\ULC@box=\box66
+Package: ulem 2019/11/18
+\ULdepth=\dimen198
 ) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count325
-\float@exts=\toks26
-\float@box=\box64
-\@float@everytoks=\toks27
-\@floatcapt=\box65
+\c@float@type=\count326
+\float@exts=\toks27
+\float@box=\box67
+\@float@everytoks=\toks28
+\@floatcapt=\box68
 ) (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 )
-\AM@pagewidth=\dimen196
-\AM@pageheight=\dimen197
+\AM@pagewidth=\dimen199
+\AM@pageheight=\dimen256
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppxetex.def
 File: ppxetex.def 2020/01/28 v0.5q Pdfpages driver for XeTeX (AM)
 )
-\AM@pagebox=\box66
-\AM@global@opts=\toks28
-\AM@pagecnt=\count326
-\AM@toc@title=\toks29
-\c@AM@survey=\count327
-\AM@templatesizebox=\box67
+\AM@pagebox=\box69
+\AM@global@opts=\toks29
+\AM@pagecnt=\count327
+\AM@toc@title=\toks30
+\c@AM@survey=\count328
+\AM@templatesizebox=\box70
 ) (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
 Package: polyglossia 2020/01/29 v1.47 Modern multilingual typesetting with XeLa
 TeX and LuaLaTeX
@@ -623,10 +634,10 @@ Package: makecmds 2009/09/03 v1.0a extra command making commands
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texl
 ive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks30
-\XKV@tempa@toks=\toks31
+\XKV@toks=\toks31
+\XKV@tempa@toks=\toks32
 )
-\XKV@depth=\count328
+\XKV@depth=\count329
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
 Package: filehook 2020/02/03 v0.7 Hooks for input files
@@ -727,18 +738,18 @@ Package pagecolor Warning: Option pagecolor=none (maybe by default) used,
 
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
-\AP@output=\toks32
-\AP@partial=\box68
-\AP@footins=\box69
+\AP@output=\toks33
+\AP@partial=\box71
+\AP@footins=\box72
 ) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
-\csq@reset=\count329
-\csq@gtype=\count330
-\csq@glevel=\count331
-\csq@qlevel=\count332
-\csq@maxlvl=\count333
-\csq@tshold=\count334
-\csq@ltx@everypar=\toks33
+\csq@reset=\count330
+\csq@gtype=\count331
+\csq@glevel=\count332
+\csq@qlevel=\count333
+\csq@maxlvl=\count334
+\csq@tshold=\count335
+\csq@ltx@everypar=\toks34
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
 )
@@ -751,18 +762,18 @@ Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen198
-\captionmargin@=\dimen199
-\captionwidth=\dimen256
-\caption@tempdima=\dimen257
-\caption@indent=\dimen258
-\caption@parindent=\dimen259
-\caption@hangindent=\dimen260
+\captionmargin=\dimen257
+\captionmargin@=\dimen258
+\captionwidth=\dimen259
+\caption@tempdima=\dimen260
+\caption@indent=\dimen261
+\caption@parindent=\dimen262
+\caption@hangindent=\dimen263
 Package caption Info: KOMA-Script document class detected.
 )
 Package caption Info: KOMA-Script document class.
-\c@caption@flags=\count335
-\c@continuedfloat=\count336
+\c@caption@flags=\count336
+\c@continuedfloat=\count337
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -778,97 +789,97 @@ Package zref Info: New property list: main on input line 763.
 Package zref Info: New property: default on input line 764.
 Package zref Info: New property: page on input line 765.
 )
-\c@abspage=\count337
+\c@abspage=\count338
 Package zref Info: New property: abspage on input line 66.
 ) (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip79
-\c@mdf@globalstyle@cnt=\count338
-\mdf@skipabove@length=\skip80
-\mdf@skipbelow@length=\skip81
-\mdf@leftmargin@length=\skip82
-\mdf@rightmargin@length=\skip83
-\mdf@innerleftmargin@length=\skip84
-\mdf@innerrightmargin@length=\skip85
-\mdf@innertopmargin@length=\skip86
-\mdf@innerbottommargin@length=\skip87
-\mdf@splittopskip@length=\skip88
-\mdf@splitbottomskip@length=\skip89
-\mdf@outermargin@length=\skip90
-\mdf@innermargin@length=\skip91
-\mdf@linewidth@length=\skip92
-\mdf@innerlinewidth@length=\skip93
-\mdf@middlelinewidth@length=\skip94
-\mdf@outerlinewidth@length=\skip95
-\mdf@roundcorner@length=\skip96
-\mdf@footenotedistance@length=\skip97
-\mdf@userdefinedwidth@length=\skip98
-\mdf@needspace@length=\skip99
-\mdf@frametitleaboveskip@length=\skip100
-\mdf@frametitlebelowskip@length=\skip101
-\mdf@frametitlerulewidth@length=\skip102
-\mdf@frametitleleftmargin@length=\skip103
-\mdf@frametitlerightmargin@length=\skip104
-\mdf@shadowsize@length=\skip105
-\mdf@extratopheight@length=\skip106
-\mdf@subtitleabovelinewidth@length=\skip107
-\mdf@subtitlebelowlinewidth@length=\skip108
-\mdf@subtitleaboveskip@length=\skip109
-\mdf@subtitlebelowskip@length=\skip110
-\mdf@subtitleinneraboveskip@length=\skip111
-\mdf@subtitleinnerbelowskip@length=\skip112
-\mdf@subsubtitleabovelinewidth@length=\skip113
-\mdf@subsubtitlebelowlinewidth@length=\skip114
-\mdf@subsubtitleaboveskip@length=\skip115
-\mdf@subsubtitlebelowskip@length=\skip116
-\mdf@subsubtitleinneraboveskip@length=\skip117
-\mdf@subsubtitleinnerbelowskip@length=\skip118
+\mdf@templength=\skip80
+\c@mdf@globalstyle@cnt=\count339
+\mdf@skipabove@length=\skip81
+\mdf@skipbelow@length=\skip82
+\mdf@leftmargin@length=\skip83
+\mdf@rightmargin@length=\skip84
+\mdf@innerleftmargin@length=\skip85
+\mdf@innerrightmargin@length=\skip86
+\mdf@innertopmargin@length=\skip87
+\mdf@innerbottommargin@length=\skip88
+\mdf@splittopskip@length=\skip89
+\mdf@splitbottomskip@length=\skip90
+\mdf@outermargin@length=\skip91
+\mdf@innermargin@length=\skip92
+\mdf@linewidth@length=\skip93
+\mdf@innerlinewidth@length=\skip94
+\mdf@middlelinewidth@length=\skip95
+\mdf@outerlinewidth@length=\skip96
+\mdf@roundcorner@length=\skip97
+\mdf@footenotedistance@length=\skip98
+\mdf@userdefinedwidth@length=\skip99
+\mdf@needspace@length=\skip100
+\mdf@frametitleaboveskip@length=\skip101
+\mdf@frametitlebelowskip@length=\skip102
+\mdf@frametitlerulewidth@length=\skip103
+\mdf@frametitleleftmargin@length=\skip104
+\mdf@frametitlerightmargin@length=\skip105
+\mdf@shadowsize@length=\skip106
+\mdf@extratopheight@length=\skip107
+\mdf@subtitleabovelinewidth@length=\skip108
+\mdf@subtitlebelowlinewidth@length=\skip109
+\mdf@subtitleaboveskip@length=\skip110
+\mdf@subtitlebelowskip@length=\skip111
+\mdf@subtitleinneraboveskip@length=\skip112
+\mdf@subtitleinnerbelowskip@length=\skip113
+\mdf@subsubtitleabovelinewidth@length=\skip114
+\mdf@subsubtitlebelowlinewidth@length=\skip115
+\mdf@subsubtitleaboveskip@length=\skip116
+\mdf@subsubtitlebelowskip@length=\skip117
+\mdf@subsubtitleinneraboveskip@length=\skip118
+\mdf@subsubtitleinnerbelowskip@length=\skip119
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box70
-\mdf@footnotebox=\box71
-\mdf@splitbox@one=\box72
-\mdf@splitbox@two=\box73
-\mdf@splitbox@save=\box74
-\mdfsplitboxwidth=\skip119
-\mdfsplitboxtotalwidth=\skip120
-\mdfsplitboxheight=\skip121
-\mdfsplitboxdepth=\skip122
-\mdfsplitboxtotalheight=\skip123
-\mdfframetitleboxwidth=\skip124
-\mdfframetitleboxtotalwidth=\skip125
-\mdfframetitleboxheight=\skip126
-\mdfframetitleboxdepth=\skip127
-\mdfframetitleboxtotalheight=\skip128
-\mdffootnoteboxwidth=\skip129
-\mdffootnoteboxtotalwidth=\skip130
-\mdffootnoteboxheight=\skip131
-\mdffootnoteboxdepth=\skip132
-\mdffootnoteboxtotalheight=\skip133
-\mdftotallinewidth=\skip134
-\mdfboundingboxwidth=\skip135
-\mdfboundingboxtotalwidth=\skip136
-\mdfboundingboxheight=\skip137
-\mdfboundingboxdepth=\skip138
-\mdfboundingboxtotalheight=\skip139
-\mdf@freevspace@length=\skip140
-\mdf@horizontalwidthofbox@length=\skip141
-\mdf@verticalmarginwhole@length=\skip142
-\mdf@horizontalspaceofbox=\skip143
-\mdfsubtitleheight=\skip144
-\mdfsubsubtitleheight=\skip145
-\c@mdfcountframes=\count339
+\mdf@frametitlebox=\box73
+\mdf@footnotebox=\box74
+\mdf@splitbox@one=\box75
+\mdf@splitbox@two=\box76
+\mdf@splitbox@save=\box77
+\mdfsplitboxwidth=\skip120
+\mdfsplitboxtotalwidth=\skip121
+\mdfsplitboxheight=\skip122
+\mdfsplitboxdepth=\skip123
+\mdfsplitboxtotalheight=\skip124
+\mdfframetitleboxwidth=\skip125
+\mdfframetitleboxtotalwidth=\skip126
+\mdfframetitleboxheight=\skip127
+\mdfframetitleboxdepth=\skip128
+\mdfframetitleboxtotalheight=\skip129
+\mdffootnoteboxwidth=\skip130
+\mdffootnoteboxtotalwidth=\skip131
+\mdffootnoteboxheight=\skip132
+\mdffootnoteboxdepth=\skip133
+\mdffootnoteboxtotalheight=\skip134
+\mdftotallinewidth=\skip135
+\mdfboundingboxwidth=\skip136
+\mdfboundingboxtotalwidth=\skip137
+\mdfboundingboxheight=\skip138
+\mdfboundingboxdepth=\skip139
+\mdfboundingboxtotalheight=\skip140
+\mdf@freevspace@length=\skip141
+\mdf@horizontalwidthofbox@length=\skip142
+\mdf@verticalmarginwhole@length=\skip143
+\mdf@horizontalspaceofbox=\skip144
+\mdfsubtitleheight=\skip145
+\mdfsubsubtitleheight=\skip146
+\c@mdfcountframes=\count340
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count340
-\c@mdf@env@i=\count341
-\c@mdf@env@ii=\count342
-\c@mdf@zref@counter=\count343
+\mdf@envdepth=\count341
+\c@mdf@env@i=\count342
+\c@mdf@env@ii=\count343
+\c@mdf@zref@counter=\count344
 Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (/usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/sourcesanspro.sty
 Package: sourcesanspro 2016/12/03 v2.6 Adobe's Source Sans Pro typeface
@@ -1259,9 +1270,9 @@ age=dflt;"
 
 (/usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip146
-\thanksmargin=\skip147
-\droptitle=\skip148
+\thanksmarkwidth=\skip147
+\thanksmargin=\skip148
+\droptitle=\skip149
 )
 
 Class scrartcl Warning: Usage of package `fancyhdr' together
@@ -1275,20 +1286,20 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              `\addtokomafont' for the page style elements need
 (scrartcl)              explicite user intervention to work.
 (scrartcl)              Nevertheless, using requested
-(scrartcl)              package `fancyhdr' on input line 347.
+(scrartcl)              package `fancyhdr' on input line 350.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip149
-\f@nch@O@elh=\skip150
-\f@nch@O@erh=\skip151
-\f@nch@O@olh=\skip152
-\f@nch@O@orh=\skip153
-\f@nch@O@elf=\skip154
-\f@nch@O@erf=\skip155
-\f@nch@O@olf=\skip156
-\f@nch@O@orf=\skip157
+\f@nch@headwidth=\skip150
+\f@nch@O@elh=\skip151
+\f@nch@O@erh=\skip152
+\f@nch@O@olh=\skip153
+\f@nch@O@orh=\skip154
+\f@nch@O@elf=\skip155
+\f@nch@O@erf=\skip156
+\f@nch@O@olf=\skip157
+\f@nch@O@orf=\skip158
 ) (/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
@@ -1303,35 +1314,35 @@ LaTeX Info: Redefining \ttfamily on input line 21.
 )
 \openout1 = `LabNotebook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 368.
-LaTeX Font Info:    ... okay on input line 368.
-Package scrbase Info: activating english \contentsname on input line 368.
-Package scrbase Info: activating english \listfigurename on input line 368.
-Package scrbase Info: activating english \listtablename on input line 368.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 371.
+LaTeX Font Info:    ... okay on input line 371.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 371.
+LaTeX Font Info:    ... okay on input line 371.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 371.
+LaTeX Font Info:    ... okay on input line 371.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 371.
+LaTeX Font Info:    ... okay on input line 371.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 371.
+LaTeX Font Info:    ... okay on input line 371.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 371.
+LaTeX Font Info:    ... okay on input line 371.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 371.
+LaTeX Font Info:    ... okay on input line 371.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 371.
+LaTeX Font Info:    ... okay on input line 371.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 371.
+LaTeX Font Info:    ... okay on input line 371.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 371.
+LaTeX Font Info:    ... okay on input line 371.
+Package scrbase Info: activating english \contentsname on input line 371.
+Package scrbase Info: activating english \listfigurename on input line 371.
+Package scrbase Info: activating english \listtablename on input line 371.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 368.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 371.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 368.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 371.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 368.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 371.
 
 Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
 (fontspec)             'latinmodern-math.otf' with options
@@ -1372,16 +1383,16 @@ Style=MathScript},{Size=-6.57,Font=latinmodern-math.otf,Style=MathScriptScript}
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 368.
+(Font)              `operators' in the math version `normal' on input line 371.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 368.
+ line 371.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 368.
+(Font)              `operators' in the math version `bold' on input line 371.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 368.
+t line 371.
 
 Package fontspec Info: latinmodern-math scale = 1.0001.
 
@@ -1452,15 +1463,15 @@ uage=dflt;"
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 368.
+(Font)              `symbols' in the math version `normal' on input line 371.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 368.
+t line 371.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 368.
+(Font)              `symbols' in the math version `bold' on input line 371.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 368.
+t line 371.
 
 Package fontspec Info: latinmodern-math scale = 0.9999.
 
@@ -1514,17 +1525,17 @@ uage=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 3
-68.
+71.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 368.
+t line 371.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 368
+(Font)              `largesymbols' in the math version `bold' on input line 371
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 368.
-LaTeX Info: Redefining \microtypecontext on input line 368.
+t line 371.
+LaTeX Info: Redefining \microtypecontext on input line 371.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1534,8 +1545,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SourceSansPro' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\AtBeginShipoutBox=\box75
-Package hyperref Info: Link coloring ON on input line 368.
+\AtBeginShipoutBox=\box78
+Package hyperref Info: Link coloring ON on input line 371.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -1543,11 +1554,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count344
+\c@section@level=\count345
 )
-LaTeX Info: Redefining \ref on input line 368.
-LaTeX Info: Redefining \pageref on input line 368.
-LaTeX Info: Redefining \nameref on input line 368.
+LaTeX Info: Redefining \ref on input line 371.
+LaTeX Info: Redefining \pageref on input line 371.
+LaTeX Info: Redefining \nameref on input line 371.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1604,10 +1615,10 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 368.
-LaTeX Info: Redefining \rmfamily on input line 368.
-LaTeX Info: Redefining \sffamily on input line 368.
-LaTeX Info: Redefining \ttfamily on input line 368.
+(lastpage)             ! on input line 371.
+LaTeX Info: Redefining \rmfamily on input line 371.
+LaTeX Info: Redefining \sffamily on input line 371.
+LaTeX Info: Redefining \ttfamily on input line 371.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: <default>
@@ -1641,21 +1652,21 @@ LaTeX Info: Redefining \ttfamily on input line 368.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 389.
+(Font)              scaled to size 20.74pt on input line 392.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 20.74pt on input line 389.
+(Font)              scaled to size 20.74pt on input line 392.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 391.
+(Font)              scaled to size 14.4pt on input line 394.
 [1
 
 
 ]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 412.
+(Font)              scaled to size 10.95pt on input line 415.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 412.
+(Font)              scaled to size 14.4pt on input line 415.
 Package tocbasic Info: character protrusion at toc deactivated on input line 41
-2.
+5.
 (./LabNotebook.toc
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
@@ -1696,52 +1707,55 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 ]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 420.
-[3] [4] [5] [6]
+(Font)              scaled to size 12.0pt on input line 423.
+[3] [4] [5]
+File: LabNotebook_files/figure-latex/gantt-1.pdf Graphic file (type pdf)
+<use LabNotebook_files/figure-latex/gantt-1.pdf>
+[6] [7]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(6)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 586.
+(Font)              scaled to size 10.95pt on input line 702.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 599.
+(Font)              scaled to size 10.95pt on input line 715.
 
-Overfull \hbox (16.89618pt too wide) in paragraph at lines 667--668
+Overfull \hbox (16.89618pt too wide) in paragraph at lines 783--784
 []\TU/SourceSansPro(0)/m/n/10.95 AMPA/NMDA/GABA 
  []
 
-[7]
+[8]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 696.
+(Font)              scaled to size 10.0pt on input line 812.
 LaTeX Font Info:    Font shape `TU/SourceCodePro(6)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 696.
+(Font)              scaled to size 10.0pt on input line 812.
 LaTeX Font Info:    Font shape `TU/SourceCodePro(6)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 697.
+(Font)              scaled to size 10.0pt on input line 813.
 LaTeX Font Info:    Font shape `TU/SourceCodePro(6)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 699.
+(Font)              scaled to size 6.0pt on input line 815.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 699.
+(Font)              scaled to size 6.00064pt on input line 815.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 699.
+(Font)              scaled to size 5.00053pt on input line 815.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 699.
+(Font)              scaled to size 5.99936pt on input line 815.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 699.
+(Font)              scaled to size 4.99947pt on input line 815.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 699.
-[8] [9] [10]
+(Font)              scaled to size 6.0pt on input line 815.
+[9] [10] [11]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(6)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 761.
+(Font)              scaled to size 10.0pt on input line 877.
 Missing character: There is no ​ in font [SourceSansPro-Regular.otf]/OT:script=
 latn;language=dflt;+pnum;mapping=tex-text;!
-[11]
+[12]
 File: ../figures/chik-fig1.png Graphic file (type bmp)
 <../figures/chik-fig1.png>
 File: ../figures/chik-fig2.png Graphic file (type bmp)
 <../figures/chik-fig2.png>
 
-Overfull \hbox (1.46323pt too wide) in paragraph at lines 852--852
+Overfull \hbox (1.46323pt too wide) in paragraph at lines 968--968
 [][] [] 
  []
 
-[12] [13]
+[13] [14]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1778,25 +1792,25 @@ braces):
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
 
 AED: lastpage setting LastPage
-[14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 867.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 867.
+[15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 983.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 983.
 (./LabNotebook.aux
 LaTeX Info: Redefining \rmfamily on input line 21.
 LaTeX Info: Redefining \sffamily on input line 21.
 LaTeX Info: Redefining \ttfamily on input line 21.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 867.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 867.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 867.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 983.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 983.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 983.
  ) 
 Here is how much of TeX's memory you used:
- 27762 strings out of 481804
- 519040 string characters out of 5937875
- 1111171 words of memory out of 5000000
- 44258 multiletter control sequences out of 15000+600000
- 538185 words of font info for 115 fonts, out of 8000000 for 9000
+ 27850 strings out of 481804
+ 520145 string characters out of 5937875
+ 1112326 words of memory out of 5000000
+ 44339 multiletter control sequences out of 15000+600000
+ 538291 words of font info for 116 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  68i,11n,109p,10134b,608s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on LabNotebook.pdf (14 pages).
+Output written on LabNotebook.pdf (15 pages).

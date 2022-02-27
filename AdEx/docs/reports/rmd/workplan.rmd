@@ -1,0 +1,43 @@
+# Work Plan (Gantt Chart)
+
+```{r gantt, include=TRUE, echo=FALSE}
+
+netpyne_gantt <- tibble::tribble(~wp, ~activity, ~start_date, ~end_date,
+                                "WP1: AdEx in NEURON", "Analize previous Adex model", "22-03-01", "22-03-25", 
+                                "WP1: AdEx in NEURON", "(Re) Implement Adex model in NEURON", "22-03-28", "22-04-29",
+                                "WP1: AdEx in NEURON", "Replicate figures from Naudi et al.", "22-05-02", "22-06-03",
+                                "WP2: AdEx in NetPyNe", "Incorporate AdEx into NetPyNe", "22-06-06", "22-06-24",
+                                "WP2: AdEx in NetPyNe", "Replicate Izhikevic tutorial with AdEx", "22-06-24", "22-07-08",
+                                "WP3: Documentation", "Document Process", "22-03-01", "22-08-08",
+                                "WP3: Documentation", "Write AdEx Tutorial for NetPyne", "22-06-06", "22-07-29",
+                                "Internship","RIKEN Summer Program","22-06-15","22-08-30") 
+
+netpyne_spots <- tibble::tribble(~activity, ~spot_type, ~spot_date,
+                                         "Internship","E","22-03-20",
+                                         "Document Process", "D", "22-03-31",
+                                         "Document Process", "D", "22-04-28",
+                                         "Document Process", "D", "22-05-26",
+                                         "Document Process", "D", "22-06-30",
+                                         "Write AdEx Tutorial for NetPyne", "M", "22-07-21")
+
+knitr::kable(netpyne_gantt)
+ganttrify(project = netpyne_gantt,
+          spots = netpyne_spots,
+          by_date = TRUE,
+          exact_date = TRUE,
+          size_text_relative = 0.8, 
+          month_number_label = TRUE,
+          hide_wp = FALSE)
+```
+**D**eliverables: Montly meeting update.
+**M**ilestone: Full project presentation (labmeeting).
+**E**vent: Result from RIKEN
+
+ Apparently, there is no current [AdEx.mod implemented in NEURON](https://senselab.med.yale.edu/modeldb/ShowModel?model=147141). I will first replicate the AdEx.mod file/model based on what Kerr Lab did previously.
+To achieve this goal, the tasks will be:
+- ~~[ ] Implement and analyze AdEx model implemented in neuron (.mod) (Sprint 1)~~
+- [ ] Analyze AdEx model implemented in neuron (.mod) (Sprint 1)
+- [ ] Re-Implement AdEx model in NEURON (Adex.mod) (Sprint 2)
+- [ ] Replicate the Izhikevic tutorial, but now incorporating the AdEx model ~~(Sprint 2)~~(Sprint 3).
+- [ ] Replicate figures from [Naud et al. ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2798047/) ~~(Sprint 3)~~(Sprint 4).
+- [ ] Write AdEx tutorial and test it for publication on the website ~~(Sprint 4)~~(Sprint 5).

@@ -32,6 +32,7 @@ graphics: yes
 ---
 ```{r setup, include=TRUE, echo=FALSE}
 library(reticulate)
+library("ganttrify")
 use_virtualenv("~/Environments/netpyne/")
 ```
 
@@ -47,7 +48,7 @@ use_virtualenv("~/Environments/netpyne/")
 
 \newpage
 
-```{r child = here::here("AdEx/docs/reports/rmd/workflow.rmd")}
+```{r child = here::here("AdEx/docs/reports/rmd/workplan.rmd")}
 ```
 
 \newpage
