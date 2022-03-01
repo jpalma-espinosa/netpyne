@@ -1,43 +1,34 @@
 # Daily Report
 
-## Jun 7th, 2021     
- I was able to run the [izhikevic tutorial](http://www.netpyne.org/tutorial.html#tutorial-4-using-a-simplified-cell-model-izhikevich).  Also, I wrote the Adex.mod file, by replicating what was done with [izhi2007b.mod](http://www.netpyne.org/_downloads/803a7312bae028b7a24ba7f3e28de705/izhi2007b.mod).  However, I am still not able to produce a spike in the Adex model.  The izhikevic one has some strange way of calculating the derivative states.  What is the difference between those two forms of calculation?  Also, how can I incorporate the synapses in the Adex neuron?      
-   
-The izhikevic (and adex) is implemented as a POINT PROCESS (see also [NEURON documentation](https://www.neuron.yale.edu/neuron/static/py_doc/modelspec/programmatic/mechanisms/nmodl.html)), contrary to the HH model.     
+## Feb 24th - Mar 03rd, 2022
 
-## Jun 30th, 2021    
-I was on halt because I had to deal with my master thesis. I am now a Master of Science :D.     
+During this week, I devoted to create this lab notebook, build the gantt chart, clean and update the project's github, and previous work wrap up.
 
-Because the previous implementation wasn't sucessful, I asked wheter AdEx should be defined as a mechanism or a point neuron (see De Schutter book, Ch. 7).
-The way that NEURON is implemented, makes logical to define AdEx as a point process and define it as ARTIFICIAL_CELL.  To do this, I have to understand how ```NET_RECEIVE(w)``` process works.      
+## Jul 19th, 2021
 
-This code block is better defined in the Neuron Book (Ch. 10)  
-
-## Jul 6th, 2021  
-I only read a couple of documents from [Neuron tutorial](https://www.neuron.yale.edu/neuron/static/new_doc/modelspec/programmatic/mechanisms/nmodl2.html) and from a [MIT tutorial on Neuron](http://web.mit.edu/neuron_v7.4/nrntuthtml/tutorial/tutD.html). The important part here was to examinate how to properly define the puntual neuron AdEx.  It seems that my model needs to considerate an external current _FROM_ an external point mechanism.  For this, I will need to re-study the [integrate and fire model](https://github.com/neuronsimulator/nrn/blob/master/src/nrnoc/intfire2.mod) that is proposed in the [Neuron Github page](https://github.com/neuronsimulator)
-
-## Jul 19th, 2021 
 After the meeting with Salvador, on Jul 6th, and by following his advices, I replicated what was developed in the izhikevich model. In particular the b part.
 Briefly, the models could be sumarized as:
 
 |Characteristic          |Izhi2003a | Izhi2003b | Izhi2007a | Izhi2007b|
-|---------------|-----------|-----------|----------|--------- | 
+|---------------|-----------|-----------|----------|--------- |
 |Kind           | P.Proc. |P.Proc. |P.Proc. |P.Proc. |
 |Section | Dummy | Regular | Dummy | Regular |
 |Synaptic input|yes | no | yes | yes|
 |Synaptic method | $g_{syn}' = -g_{syn}/\tau_g$|---|AMPA/NMDA/GABA dynamics|cell dependent
 |Implemented in Netpyne | no | no | yes | no
 
-
 I focused on replicating the Izhi2007b.
 
-**Results:**     
+**Results:**
+
 1. I was able to build and compile Adex2021b (I am keeping the name scheme).
 2. I was able to replicate the Izhikevic tutorial, but now using Adex (adex.ipynb).
 
-**Drawbacks:**   
-1.  my neuron does not fire, even further, I get an error
-```C   
+**Drawbacks:**
+
+1. my neuron does not fire, even further, I get an error
+
+```C
 See http://neuron.yale.edu/neuron/credits
 
 loading membrane mechanisms from /home/javier/Neuroscience/netpyne/AdEx/x86_64/.libs/libnrnmech.so
@@ -51,4 +42,24 @@ terminate called after throwing an instance of 'std::regex_error'
   what():  regex_error
 Aborted (core dumped)
 ```
+
 I need to debug the .mod file, but I don't know how
+
+## Jul 6th, 2021  
+
+I only read a couple of documents from [Neuron tutorial](https://www.neuron.yale.edu/neuron/static/new_doc/modelspec/programmatic/mechanisms/nmodl2.html) and from a [MIT tutorial on Neuron](http://web.mit.edu/neuron_v7.4/nrntuthtml/tutorial/tutD.html). The important part here was to examinate how to properly define the puntual neuron AdEx.  It seems that my model needs to considerate an external current _FROM_ an external point mechanism.  For this, I will need to re-study the [integrate and fire model](https://github.com/neuronsimulator/nrn/blob/master/src/nrnoc/intfire2.mod) that is proposed in the [Neuron Github page](https://github.com/neuronsimulator)
+
+## Jun 30th, 2021
+
+I was on halt because I had to deal with my master thesis. I am now a Master of Science :D.
+
+Because the previous implementation wasn't sucessful, I asked wheter AdEx should be defined as a mechanism or a point neuron (see De Schutter book, Ch. 7).
+The way that NEURON is implemented, makes logical to define AdEx as a point process and define it as ARTIFICIAL_CELL.  To do this, I have to understand how ```NET_RECEIVE(w)``` process works.
+
+This code block is better defined in the Neuron Book (Ch. 10)  
+
+## Jun 7th, 2021
+
+ I was able to run the [izhikevic tutorial](http://www.netpyne.org/tutorial.html#tutorial-4-using-a-simplified-cell-model-izhikevich).  Also, I wrote the Adex.mod file, by replicating what was done with [izhi2007b.mod](http://www.netpyne.org/_downloads/803a7312bae028b7a24ba7f3e28de705/izhi2007b.mod).  However, I am still not able to produce a spike in the Adex model.  The izhikevic one has some strange way of calculating the derivative states.  What is the difference between those two forms of calculation?  Also, how can I incorporate the synapses in the Adex neuron?
+
+The izhikevic (and adex) is implemented as a POINT PROCESS (see also [NEURON documentation](https://www.neuron.yale.edu/neuron/static/py_doc/modelspec/programmatic/mechanisms/nmodl.html)), contrary to the HH model.

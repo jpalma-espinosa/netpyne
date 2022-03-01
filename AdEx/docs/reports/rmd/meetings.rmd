@@ -1,2 +1,10 @@
 # Meetings
 
+## Thursday, 23th feb. 2022
+
+* **Hour:** 18:00 - 18:20 GMT-03
+* **Reason:** Project's redefinition and continuity.
+
+This meeting was mainly to update Salvador about my performance on the last semester. I explained him why I set aside this project, what were my interests and motivations. We decided that I should continue with this idea.
+
+In order to do it, I commited to come along (on Thu, 03rd march) with a gantt chart and a proper task definition for achieving the project. The gantt chart is on the [workplan](#workplan) page

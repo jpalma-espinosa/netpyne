@@ -24,8 +24,12 @@ Password: <type your password>
 ```
 
 Notice that **Password** is the code obtained from the [github access token](https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+
 ​
 _several days later_
+
+
 
 ```bash
 $ git push http://example.com/repo.git
