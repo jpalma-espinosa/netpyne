@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.11.25)  1 MAR 2022 02:25
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.11.25)  1 MAR 2022 02:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1701,41 +1701,41 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
 File: LabNotebook_files/figure-latex/gantt-1.pdf Graphic file (type pdf)
 <use LabNotebook_files/figure-latex/gantt-1.pdf>
 
-Overfull \hbox (10.9519pt too wide) in paragraph at lines 656--657
+Overfull \hbox (10.9519pt too wide) in paragraph at lines 663--664
 [] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 664.
+(Font)              scaled to size 10.95pt on input line 671.
 [6] [7]
-Overfull \hbox (16.89618pt too wide) in paragraph at lines 775--776
+Overfull \hbox (16.89618pt too wide) in paragraph at lines 788--789
 []\TU/SourceSansPro(0)/m/n/10.95 AMPA/NMDA/GABA 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 818.
+(Font)              scaled to size 10.0pt on input line 831.
 LaTeX Font Info:    Font shape `TU/SourceCodePro(6)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 818.
+(Font)              scaled to size 10.0pt on input line 831.
 LaTeX Font Info:    Font shape `TU/SourceCodePro(6)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 819.
+(Font)              scaled to size 10.0pt on input line 832.
 LaTeX Font Info:    Font shape `TU/SourceCodePro(6)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 821.
+(Font)              scaled to size 6.0pt on input line 834.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 821.
+(Font)              scaled to size 6.00064pt on input line 834.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 821.
+(Font)              scaled to size 5.00053pt on input line 834.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 821.
+(Font)              scaled to size 5.99936pt on input line 834.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 821.
+(Font)              scaled to size 4.99947pt on input line 834.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 821.
+(Font)              scaled to size 6.0pt on input line 834.
 [8]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(6)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 861.
+(Font)              scaled to size 10.95pt on input line 874.
 [9] [10] [11]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(6)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 946.
+(Font)              scaled to size 10.0pt on input line 959.
 Missing character: There is no ​ in font [SourceSansPro-Regular.otf]/OT:script=
 latn;language=dflt;+pnum;mapping=tex-text;!
 [12] [13]
@@ -1776,22 +1776,22 @@ braces):
 
 AED: lastpage setting LastPage
 [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 986.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 986.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 999.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 999.
 (./LabNotebook.aux
 LaTeX Info: Redefining \rmfamily on input line 21.
 LaTeX Info: Redefining \sffamily on input line 21.
 LaTeX Info: Redefining \ttfamily on input line 21.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 986.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 986.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 986.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 999.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 999.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 999.
  ) 
 Here is how much of TeX's memory you used:
- 27730 strings out of 481804
- 518255 string characters out of 5937875
- 1109211 words of memory out of 5000000
- 44231 multiletter control sequences out of 15000+600000
+ 27732 strings out of 481804
+ 518287 string characters out of 5937875
+ 1110266 words of memory out of 5000000
+ 44233 multiletter control sequences out of 15000+600000
  538185 words of font info for 115 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  68i,11n,109p,10134b,608s stack positions out of 5000i,500n,10000p,200000b,80000s

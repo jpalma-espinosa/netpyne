@@ -53,6 +53,11 @@ use_virtualenv("~/Environments/netpyne/")
 
 \newpage
 
+```{r child = here::here("AdEx/docs/reports/rmd/Notes.rmd")}
+```
+
+\newpage
+
 ```{r child = here::here("AdEx/docs/reports/rmd/Daily.rmd")}
 ```
 

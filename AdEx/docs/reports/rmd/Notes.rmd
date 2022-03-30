@@ -1,0 +1,35 @@
+## NEURON: Notes for developing models
+
+Check also [this tutorial from LASCON-2020](http://sisne.org/LASCON/Resources/NiltonKamiji/tutorial_3_2020.pdf)
+
+For creating objects, NEURON proposes two methods:
+
+1. **Point Process** which are used to describe synapsis, recoding electrodes, among others
+2. **Mechanisms** which are ionic channels like.
+3. For implementing AdEx in NEURON, I think that the most logical idea is to use Point Processes.
+4. The Integrate and Fire model is defined in NEURON as **ARTIFICIAL_CELL**
+
+### POINT PROCESS
+NEURON makes the distinction between mechanisms that are attributed to an entire section (e.g., HH channels) and mechanisms that are associated with a particular point in the section (e.g., voltage clamp or synapse). While the former are most conveniently expressed in terms of per unit area, the point processes are more conveniently expressed in absolute terms (e.g., current injection is usually expressed in terms of nA instead of nA/cm2). Point processes also differ in that you can insert several in the same segment.
+
+
+### NETCON
+**NEURON Network Connection (NetCon)** is a class that proivides an event manager system. Instances of NetCon manages the sending of presynaptic spikes to postsynaptic point processes, using the event-driven send system.
+A NetCon object connects a *presyn variable* with a destination point process, with an arbitrary weigth and delay.
+
+### NMODL
+Every neuron model is build with functional blocks that describes memnrane mechanism.  The basic structure for building a NMODL is the following:
+
+```
+TITLE
+UNITS
+NEURON
+PARAMETER
+ASIGNED
+STATE
+DERIVATIVE
+BREAKPOINT
+INITIAL
+```
+
+A NEURON Section is considered a piece of cable.Depending on the resolution desired, it may be necessary to divide the cable into a number of segments where voltage varies linearly between centers of adjacent segments. 
