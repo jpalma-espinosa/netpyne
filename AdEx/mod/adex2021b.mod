@@ -50,7 +50,7 @@ UNITS {
 
 :initializion and activation of the process
 INITIAL { 
-    w=0            (pA)
+    k=0            (pA) : adaptation variable
     v=-60          (mV)
     flag = 1
     net_send(0,1)
@@ -64,7 +64,7 @@ PARAMETER {
 	V_spike = 0  	(mV)	    :value of spike
 	a = 2			(nS)		:coupling with adaptive variable
 	b = 0   		(pA)		:adaptive increment
-	tau_w = 30		(ms)		:adaptive time costant
+	tau_k = 30		(ms)		:adaptive time costant
 	E_l = -70		(mV)		:resting potential for leak term
 	gl  = 10		(nS)	    :leak conductance
 	deltaT = 2		(mV)	    :speed of exp
@@ -82,18 +82,18 @@ ASSIGNED {
 
 : state variables. w is the adaptation variable
 STATE {
-    w             (pA)
+    k             (pA)
 }
-
 
 BREAKPOINT{ 
     SOLVE states METHOD cnexp
-    i =(-gl*(v-E_l)+gl*deltaT*exp((v-V_thre)/deltaT)-I_ext - w)
+    i =(-gl*(v-E_l)+gl*deltaT*exp((v-V_thre)/deltaT)-I_ext - k)
+    :printf("%f",i)
 }
 
 :solve the system
 DERIVATIVE states { 
-    w' = (1/tau_w)*(a*(v-E_l)-w)
+    k' = (1/tau_k)*(a*(v-E_l)-k)
 }
 
 : Input received
@@ -112,6 +112,6 @@ NET_RECEIVE (w) {
       v = V_spike : I have to "draw" the spike
       :now recovery
       v = V_reset
-      w = w + b
+      k = k + b
   }
 }

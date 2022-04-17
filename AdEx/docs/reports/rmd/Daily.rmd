@@ -1,5 +1,41 @@
 # Daily Report
 
+# March 31th, 2022
+
+For a restart, I had to go back to basics, this is, to be able to build a simple mechanism/model that works.  For this, [I build a simple script for an Izhikevic neuron and let it spike]('../../../notebook/Simple-Izhikevic.ipynb')
+
+```python
+from neuron import h
+import matplotlib.pyplot as plt
+
+h.load_file('stdrun.hoc') 
+# Create a soma and add a point process Izhikevic
+soma = h.Section(name='soma') 
+izhi = h.Izhi2007b(soma(0.5))
+
+h.tstop = 10000.0
+
+#Current Clamp
+ic = h. IClamp (0.5 , sec = soma )
+ic.delay = 2000.0 # ms
+ic.dur = 500.0 # ms
+ic.amp = 0.3 # nA
+
+v_vec_soma = h.Vector() # Membrane potential vector
+t_vec = h.Vector() # Time stamp vector
+v_vec_soma.record(soma(0.5)._ref_v)
+t_vec.record(h._ref_t)
+
+h.run()
+
+#plot t_vec against v_vec_soma
+```
+
+```{r echo=FALSE, fig.cap="Simple Izhikevic Neuron", out.width = '100%', fig.align='center'}
+knitr::include_graphics('../../src/figs/simpleIzhikevic.png')
+```
+
+
 ## Feb 24th - Mar 03rd, 2022
 
 During this week, I devoted to create this lab notebook, build the gantt chart, clean and update the project's github, and previous work wrap up.

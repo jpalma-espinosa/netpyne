@@ -1,0 +1,11 @@
+load_file("stdgui.hoc")
+nrnmainmenu()
+objref g[10]
+tstop=500
+
+create acell
+access acell
+
+objref izh
+
+
